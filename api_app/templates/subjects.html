@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 10px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Subjects List for Computer Networks and Informations Security Engineering</u></h1>
+
+    {% for year, subjects_list in subjects.items %}
+        <h2>{{ year }}</h2>
+        <ul>
+            {% for subject in subjects_list %}
+                <li>{{ subject }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+</body>
+</html>
