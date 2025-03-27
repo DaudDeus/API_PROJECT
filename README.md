@@ -35,10 +35,10 @@ A simple API mainly using Python language specifically django framework, providi
 6. Run the application with Gunicorn:
 
 ## Testing
--launch XAMPP
--SET WELL THE DATABASE
--OPEN THE BROWSER (chrome)
-  'http://127.0.0.1:8000/myapi/students'
-  'http://127.0.0.1:8000/myapi/subjects'
+i. launch XAMPP
+ii. SET WELL THE DATABASE
+ii. OPEN THE BROWSER (chrome)
+      'http://127.0.0.1:8000/myapi/students'
+      'http://127.0.0.1:8000/myapi/subjects'
   
 
