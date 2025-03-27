@@ -1,0 +1,20 @@
+.env
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Media and static files
+/media/
+/static/
+
+# IDEs
+.idea/
+.vscode/
