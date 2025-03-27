@@ -13,7 +13,7 @@ A simple API mainly using Python language specifically django framework, providi
 - **Deployment**: AWS EC2 (Ubuntu)
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.12 +
 - mysql
 - pip
 ### Install the Dependencies
